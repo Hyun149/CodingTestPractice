@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace CodingTestPractice.Day_1
 {
-    class FindMaxMin
+    public static class FindMaxMin
     {
         // 📝 문제: 최댓값과 최솟값 찾기
         //
@@ -27,7 +21,7 @@ namespace CodingTestPractice.Day_1
         // 최댓값: 9
         // 최솟값: 2
 
-        static void Main()
+        public static void Run()
         {
             int[] numbers = { 5, 9, 3, 7, 2, 8, 6 };
             int max = numbers[0];

@@ -1,25 +1,13 @@
-﻿using System;
-using System.Diagnostics.CodeAnalysis;
-
-class Program
+// SumMultiples.cs
+namespace CodingTestPractice.Day_2
 {
-    // 📝 문제:
-    // 1부터 n까지의 수 중에서
-    // 3의 배수 또는 5의 배수인 수를 모두 찾아
-    // 그 수들의 합을 구하여 출력하는 프로그램입니다.
-    static void Main()
+    public static class SumMultiples
     {
-        int n = int.Parse(Console.ReadLine());
-        int sum = 0;
-
-        for (int i = 0; i <= n; i++)
+        public static void Run()
         {
-            if (i % 3 == 0 || i % 5 == 0)
-            {
-                sum += i;
-            }
+            int n = int.Parse(Console.ReadLine());
+            int sum = Enumerable.Range(1, n).Where(i => i % 3 == 0 || i % 5 == 0).Sum();
+            Console.WriteLine(sum);
         }
-
-        Console.WriteLine(sum);
     }
 }
