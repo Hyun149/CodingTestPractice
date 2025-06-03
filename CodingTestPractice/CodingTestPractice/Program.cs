@@ -10,8 +10,9 @@ namespace CodingTestPractice
     {
         static void Main()
         {
-            Day_1.FindMaxMin.Run();
-            Day_2.SumMultiples.Run();
+            FindMaxMin.Run();
+            SumMultiples.Run();
+            Day3.Run();
         }
     }
 }

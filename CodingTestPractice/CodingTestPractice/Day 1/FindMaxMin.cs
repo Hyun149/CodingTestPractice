@@ -1,4 +1,4 @@
-namespace CodingTestPractice.Day_1
+namespace CodingTestPractice
 {
     public static class FindMaxMin
     {

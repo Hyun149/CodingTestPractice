@@ -1,5 +1,5 @@
 // SumMultiples.cs
-namespace CodingTestPractice.Day_2
+namespace CodingTestPractice
 {
     public static class SumMultiples
     {
