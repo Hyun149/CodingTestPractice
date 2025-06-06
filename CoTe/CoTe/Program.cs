@@ -10,6 +10,8 @@ namespace CoTe
             Console.WriteLine("CoTe 시작!");
 
             Day4.Run();
+            Day5.Run();
+            Day6.Run();
         }
     }
 }
