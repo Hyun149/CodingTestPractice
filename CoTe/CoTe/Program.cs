@@ -1,4 +1,3 @@
-using System;
 using CoTe.DayX;
 
 namespace CoTe

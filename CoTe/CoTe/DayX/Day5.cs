@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 /// <summary>
 /// 📝 Day5 문제: 가장 많이 등장한 문자 찾기
 ///

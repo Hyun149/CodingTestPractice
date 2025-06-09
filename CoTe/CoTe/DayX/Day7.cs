@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace CoTe.DayX
 {
     internal class Day7
@@ -67,7 +61,7 @@ namespace CoTe.DayX
                 int i = input[0];
                 int j = input[1];
 
-                int sum = prefixSum[j] - prefixSum[i - 1];
+                int sum = prefixSum[i] - prefixSum[i - 1];
                 Console.WriteLine(sum);
             }
         }
